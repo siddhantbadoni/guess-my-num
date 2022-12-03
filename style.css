@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quantico', sans-serif;
+
+}
+
+/* @keyframes gamebackground {
+    from { background-color :  #F6F6F6 ; } 
+    to { background-color: black;}   
+} */
+
+body {
+    background-color: #F6F6F6;
+    animation-name: gamebackground;
+    animation-duration: 4s;
+}
+
+header {
+    display: flex;
+    width: 76%;
+    height: 15vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    width: 12rem;
+    padding: 20px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 77px;
+}
+
+.mode_button {
+    padding: 14px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: #3b4146;
+    color: lightgray;
+  }
+
+  body.dark-mode input{
+    border-color: white;
+    background-color: lightgray;
+  }
+
+  body.dark-mode .number  {
+    border-color: #F6F6F6;
+  }
+
+  body.dark-mode .left {
+    border-color: #F6F6F6;
+  }
+
+  body.dark-mode .right {
+    border-color: #F6F6F6;
+  }
+
+  body.dark-mode .check {
+    border-color: #F6F6F6;
+    background-color: lightgray;
+  }
+
+  
+  body.dark-mode .scorebox {
+    border-color: #F6F6F6;
+  }
+
+  
+  body.dark-mode .again {
+    border-color: #F6F6F6;
+    background-color: lightgray;
+  }
+
+.between {
+    display: flex;
+    font-size: 20px;
+    padding: 24px;
+    margin-right: 71px;
+}
+.guess_section {
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    width: 31%;
+    height: auto;
+    justify-content: center;
+    height: auto;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+}
+
+.number {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 9rem;
+    padding: 0.5rem;
+    font-size: 4rem;
+    height: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    
+}
+
+.main_sections {
+    display: flex;
+    justify-content: center;
+    height: 19rem;
+    margin-top: 22px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 31%;
+    border: 2px solid black;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
+}
+
+.guess {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    font-size: 51px;
+    padding: 8px 44px;
+    border: 2px solid black;
+}
+
+.check {
+    display: flex;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 31%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
+    border-left: 1px;
+    
+}
+
+.scorebox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    font-size: 29px;
+    padding: 40px;
+    margin-top: 22px;
+}
+
+.message {
+    font-size: 30px;
+}
+
+.arrow1 {
+    margin-left: 50px;
+    margin-right: 26px;
+}
+
+.arrow2 {
+    margin-right: 23px;
+}
+
+.label-highscore {
+    margin-top: 13px;
+}
+
